@@ -15,17 +15,20 @@
         android:text="MMR 점수 입력" />
 
     <EditText
+        android:id="@+id/mmrScoreEdt"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="점수를 숫자로 입력하세요"
         android:inputType="number"/>
 
     <Button
+        android:id="@+id/calculateBtn"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="티어 계산하기" />
 
     <TextView
+        android:id="@+id/tierTxt"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:text="당신의 티어는.." />
